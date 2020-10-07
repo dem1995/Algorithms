@@ -8,6 +8,8 @@ To give an example, we might have red (square) vectors and blue (circle) vectors
 
 ![separating boundary image](https://raw.githubusercontent.com/dem1995/algorithms/main/svms/separating_boundary.png?style=centered)
 
+For example, one might imagine the equation of the line here is some <img src="https://i.upmath.me/svg/%5Cvec%7Bw%7D%5Ccdot%5Cvec%7Bx%7D%20-%20b%20%3D%200" alt="\vec{w}\cdot\vec{x} - b = 0" /> - in that case, we can let our classifier function be <img src="https://i.upmath.me/svg/%5Ctexttt%7Bsgn%7D(%5Cvec%7Bw%7D%5Ccdot%5Cvec%7Bx%7D%20-%20b)" alt="\texttt{sgn}(\vec{w}\cdot\vec{x} - b)" />, resulting in -1 for vectors below the line and +1 for vectors above the line. 
+
 ### Choice-of-Hyperplane Intuition
 In the previous example, the demonstrated line actually is the result of running a support vector machine. But why that line? Consider the example again, at left, and the figure at right.
 
@@ -17,6 +19,9 @@ All of these green lines separate the vectors properly, and indeed could all be 
 
 Sure, we could have some wonky underlying distribution, such as where the circles actually appear really close to the squares (or even within the cavity of the squares), but with the information we _know_ (i.e. our collection of samples) additional justification would be needed for choosing anything but this line.
 
-Looking at the line again, we've highlighted the closest vectors, known as the *support vectors* as well as indicated what we mean when we say "maximizing the distance to the closest sample in each class", also known as the _margin_.
+Looking at the line again, we've highlighted the closest vectors, known as the **_support vectors_** as well as indicated what we mean when we say "maximizing the distance to the closest sample in each class", also known as the **_margin_**.
 
 ![maximizing margin image](https://raw.githubusercontent.com/dem1995/algorithms/main/svms/maximum_margin.png)
+
+### Support Vector Intuition
+Notice that, as the optimal hyperplane is that which separates the classes and maximizes the margin to the closest vectors (aka the support vectors), **the optimal hyperplane is entirely defined by the support vectors**.
