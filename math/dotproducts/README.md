@@ -4,7 +4,7 @@ The dot product of **u** and **v** is given by
 
 <img src="https://i.upmath.me/svg/%5Cmathbf%7Bu%7D%20%5Ccdot%20%5Cmathbf%7Bv%7D%20%3D%20%5Ctextup%7Bcos%7D(%5Ctheta_%7B%5Cmathbf%7Bu%7D%2C%20%5Cmathbf%7Bv%7D%7D)%20%5Cleft%20%5C%7C%20%5Cmathbf%7Bu%7D%20%5Cright%20%5C%7C%20%5Cleft%20%5C%7C%20%5Cmathbf%7Bv%7D%20%5Cright%20%5C%7C" alt="\mathbf{u} \cdot \mathbf{v} = \textup{cos}(\theta_{\mathbf{u}, \mathbf{v}}) \left \| \mathbf{u} \right \| \left \| \mathbf{v} \right \|" />
 
-In other words, _the dot product of **u** and **v**_ is just **the degree by which each are in the same direction, scaled by their actual lengths**.
+In other words, the dot product of **u** and **v** is just **the degree by which each are in the same direction, scaled by their actual lengths**.
 
 This, intuitively, ranges from 0 (when they are perpendicular) to **|u||v|** (when they are codirectional) to **--|u||v|** (when they are antidirectional).
 
