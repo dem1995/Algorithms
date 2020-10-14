@@ -1,4 +1,4 @@
-e# Vector Dot Product
+# Vector Dot Product
 
 The dot product of **u** and **v** is given by
 
